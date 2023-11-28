@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.496">
-  <testsuite name="handler function" errors="0" failures="0" skipped="0" timestamp="2023-11-28T17:19:45" time="0.468" tests="1">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.491">
+  <testsuite name="handler function" errors="0" failures="0" skipped="0" timestamp="2023-11-28T17:46:49" time="0.464" tests="1">
     <testcase classname="handler function should return a successful response with the custom variable from environment" name="handler function should return a successful response with the custom variable from environment" time="0.001">
     </testcase>
   </testsuite>

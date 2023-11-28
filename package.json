@@ -1,6 +1,6 @@
 {
-  "name": "np6-lambdas",
-  "private": true,
+  "name": "ts-serverless",
+  "private": false,
   "version": "1.0.0",
   "description": "",
   "scripts": {
