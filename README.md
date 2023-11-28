@@ -9,9 +9,27 @@
 ![NodeJS 20](https://img.shields.io/badge/NODE%2020-green?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![License MIT](https://img.shields.io/badge/License%20-MIT-blue?style=for-the-badge)
 ![PRS Welcome](https://img.shields.io/badge/PRs%20-Welcome-green?style=for-the-badge)
-![PRS Welcome](https://img.shields.io/badge/😜%20😍%20Gitmoji-yellow?style=for-the-badge)
+![Gitmoji](https://img.shields.io/badge/😜%20😍%20Gitmoji-yellow?style=for-the-badge)
+![Build status](https://img.shields.io/github/actions/workflow/status/fjbatresv/ts-serverless/build_test.yml?style=for-the-badge)
 
 This project, named "ts-serverless," is a TypeScript-based serverless application designed for deployment on AWS using the Serverless Framework. It leverages various tools and configurations for development, testing, and code quality.
+
+## Usage
+
+To get started with the project, follow these steps:
+
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Run linting with `npm run lint`.
+4. Run linting and fix with `npm run lint:fix`
+5. Execute tests with `npm run test`.
+6. Execute tests and generate coverage report with `npm run test:coverage`
+7. Execute test for SonarQube analysis with `npm run test:sonar`
+8. Execute SonarQube scan with: `npm run sonar:scan`
+9. Execute SonarQube scan and tests with: `npm run sonar:all`
+10. Run the application locally with: `serverless offline -s dev`
+
+Feel free to adjust configurations and scripts based on your project requirements. For more detailed information, refer to individual configuration files and documentation for the used tools and frameworks.
 
 ## Table of Contents
 
@@ -98,20 +116,3 @@ Husky configuration files define Git hooks to run linting and testing before com
 ### .editorconfig
 
 EditorConfig file (`editorconfig`) helps maintain consistent coding styles across different editors. It specifies settings such as indentation and character encoding.
-
-## Usage
-
-To get started with the project, follow these steps:
-
-1. Clone the repository.
-2. Install dependencies with `npm install`.
-3. Run linting with `npm run lint`.
-4. Run linting and fix with `npm run lint:fix`
-5. Execute tests with `npm run test`.
-6. Execute tests and generate coverage report with `npm run test:coverage`
-7. Execute test for SonarQube analysis with `npm run test:sonar`
-8. Execute SonarQube scan with: `npm run sonar:scan`
-9. Execute SonarQube scan and tests with: `npm run sonar:all`
-10. Run the application locally with: `serverless offline -s dev`
-
-Feel free to adjust configurations and scripts based on your project requirements. For more detailed information, refer to individual configuration files and documentation for the used tools and frameworks.
