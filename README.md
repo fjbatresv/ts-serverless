@@ -43,6 +43,7 @@ Feel free to adjust configurations and scripts based on your project requirement
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
 
 ## Table of Contents
 

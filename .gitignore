@@ -6,6 +6,7 @@ coverage
 *.lcov
 .scannerwork/
 test-report.xml
+junit.xml
 
 # dependencies
 node_modules
