@@ -31,6 +31,19 @@ To get started with the project, follow these steps:
 
 Feel free to adjust configurations and scripts based on your project requirements. For more detailed information, refer to individual configuration files and documentation for the used tools and frameworks.
 
+## SonarCloud Status
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=bugs)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fjbatresv_ts-serverless&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fjbatresv_ts-serverless)
+
 ## Table of Contents
 
 1. [Project Structure](#project-structure)
