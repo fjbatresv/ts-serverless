@@ -1,0 +1,29 @@
+service: typescript-template-layer
+
+plugins:
+  - serverless-prune-plugin
+  - serverless-deployment-bucket
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: eu-west-1
+  profile: 'sar'
+  stage: ${opt:stage}
+  endpointType: REGIONAL
+  deploymentBucket:
+    name: ts-template-layer-deployment-bucket
+    serverSideEncryption: AES256
+
+custom:
+  prune:
+    automatic: true
+    number: 3
+
+layers:
+  dependenciesLayer:
+    path: ./dependencies_layer
+    name: ${opt:stage}-dependencies-layer
+    description: Dependencies layer
+    compatibleRuntimes:
+      - nodejs20.x

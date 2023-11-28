@@ -1,0 +1,12 @@
+**/*.test.ts
+**/*.spec.ts
+jest.config.js
+jest.setup.ts
+/_templates
+sonarqube-scanner.js
+webpack.config.ts
+.esbuild/
+.scannerwork/
+coverage/
+dist/
+node_modules/

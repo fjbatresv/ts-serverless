@@ -1,0 +1,56 @@
+service: typescript-template
+
+plugins:
+  - serverless-esbuild
+  - serverless-offline
+  - serverless-prune-plugin
+  - serverless-deployment-bucket
+
+custom:
+  stage: ${opt:stage, "dev"}
+
+  serverless-offline:
+    layersDir: './layers'
+    httpPort: 3000
+    lambdaPort: 4000
+
+  prune:
+    automatic: true
+    number: 3
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: eu-west-1
+  profile: 'sar'
+  stage: ${opt:stage}
+  timeout: 30
+  memorySize: 1024
+  endpointType: REGIONAL
+  apiGateway:
+    shouldStartNameWithService: true
+    metrics: true
+  tracing:
+    apiGateway: true
+    lambda: true
+  environment:
+    STAGE: ${self:provider.stage}
+  deploymentBucket:
+    name: sar-np6-cbo-deployment-bucket
+    serverSideEncryption: AES256
+  # layers:
+  #   - { Ref: DependenciesLambdaLayer }
+
+package:
+  excludeDevDependencies: true
+  patterns:
+    - '!node_modules/**'
+    - '!layers'
+
+functions:
+  Function1:
+    handler: ./src/example.handler
+    events:
+      - httpApi:
+          path: /api/example
+          method: GET

@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Dependencies layers",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "nodemailer": "^6.9.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

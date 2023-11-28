@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "sonarsource.sonarlint-vscode",
+    "aaron-bond.better-comments",
+    "kisstkondoros.vscode-codemetrics",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "wix.vscode-import-cost",
+    "firsttris.vscode-jest-runner",
+    "mintlify.document",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "yoavbls.pretty-ts-errors",
+    "hbenl.vscode-test-explorer",
+    "shardulm94.trailing-spaces",
+    "kevinmcgowan.TypeScriptImport",
+    "redhat.vscode-yaml",
+    "MutualOfEnumclaw.serverless-vs-code",
+    "ms-azuretools.vscode-docker"
+  ]
+}
